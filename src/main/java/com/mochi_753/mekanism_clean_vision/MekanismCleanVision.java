@@ -1,7 +1,7 @@
-package com.mochi_753.vanilla_vision_enhancement_unit;
+package com.mochi_753.mekanism_clean_vision;
 
-import com.mochi_753.vanilla_vision_enhancement_unit.register.ModItems;
-import com.mochi_753.vanilla_vision_enhancement_unit.register.ModModules;
+import com.mochi_753.mekanism_clean_vision.register.ModItems;
+import com.mochi_753.mekanism_clean_vision.register.ModModules;
 import mekanism.api.MekanismIMC;
 import mekanism.api.gear.ICustomModule;
 import mekanism.common.registries.MekanismCreativeTabs;
@@ -11,12 +11,12 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
-@Mod(VanillaVisionEnhancementUnit.MOD_ID)
-public class VanillaVisionEnhancementUnit implements ICustomModule<VanillaVisionEnhancementUnit> {
-    public static final String MOD_ID = "vveu";
+@Mod(MekanismCleanVision.MOD_ID)
+public class MekanismCleanVision implements ICustomModule<MekanismCleanVision> {
+    public static final String MOD_ID = "mekanism_clean_vision";
 
     @SuppressWarnings("removal")
-    public VanillaVisionEnhancementUnit() {
+    public MekanismCleanVision() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(bus);
         ModModules.register(bus);
@@ -25,7 +25,7 @@ public class VanillaVisionEnhancementUnit implements ICustomModule<VanillaVision
     }
 
     private void imcQueue(InterModEnqueueEvent event) {
-        MekanismIMC.addMekaSuitHelmetModules(ModModules.VANILLA_VISION_ENHANCEMENT_UNIT);
+        MekanismIMC.addMekaSuitHelmetModules(ModModules.CLEAN_VISION_ENHANCEMENT_UNIT);
     }
 
     private void buildCreativeModeTabContents(BuildCreativeModeTabContentsEvent event) {
