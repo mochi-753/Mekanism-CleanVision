@@ -1,4 +1,4 @@
-# Vanilla Vision Enhancement Unit
+# Mekanism: CleanVision
 
 A small Mekanism addon that adds an alternative **MekaSuit module** for players who prefer the **vanilla Night Vision effect**.
 
@@ -8,7 +8,7 @@ this module grants the **classic Night Vision effect**—clear and bright, just 
 ---
 
 ## Features
-- Adds the **Vanilla Vision Enhancement Unit** MekaSuit module
+- Adds the **Clean Vision Enhancement Unit** MekaSuit module
 - **Helmet-only** installation (just like the original Vision module)
 - Consumes the same amount of energy as Mekanism’s Vision Enhancement Unit
 - Fully toggleable via the MekaSuit HUD
