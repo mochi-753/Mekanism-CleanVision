@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mekanism_clean_vision:module_clean_vision_enhancement"
+    }
+  ],
+  "result": {
+    "item": "mekanism:module_vision_enhancement_unit",
+    "count": 1
+  }
+}
