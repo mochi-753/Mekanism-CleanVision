@@ -13,4 +13,4 @@ jobs:
   ServerTest:
     permissions:
       contents: write
-    uses: Mochi-753/GithubActions/.github/workflows/server-test.yml@1.20.1
+    uses: Mochi-753/GithubActions/.github/workflows/server-test.yml@1.18.2
