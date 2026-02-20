@@ -9,6 +9,6 @@ build
 
 run
 runs
+run-client
+run-server
 run-data
-
-repo
