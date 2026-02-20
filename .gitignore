@@ -1,6 +1,14 @@
-.gradle
+out
+*.ipr
+*.iws
+*.iml
 .idea
+
 build
+.gradle
+
 run
 runs
+run-client
+run-server
 run-data
