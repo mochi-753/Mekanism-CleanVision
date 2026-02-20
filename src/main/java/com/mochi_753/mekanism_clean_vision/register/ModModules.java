@@ -11,7 +11,7 @@ public class ModModules {
     public static final ModuleDeferredRegister MODULES = new ModuleDeferredRegister(MekanismCleanVision.MOD_ID);
     public static final ModuleRegistryObject<ModuleCleanVisionEnhancementUnit> CLEAN_VISION_ENHANCEMENT_UNIT =
             MODULES.register("clean_vision_enhancement", ModuleCleanVisionEnhancementUnit::new,
-                    () -> ModItems.CLEAN_VISION_ENHANCEMENT_UNIT.asItem(),
+                    () -> ModItems.CLEAN_VISION_ENHANCEMENT_UNIT.get(),
                     builder -> builder.maxStackSize(1).rarity(Rarity.RARE).handlesModeChange().rendersHUD().disabledByDefault());
 
     private ModModules() {

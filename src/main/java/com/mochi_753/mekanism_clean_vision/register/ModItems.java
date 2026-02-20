@@ -8,8 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 
 public class ModItems {
     public static final ItemDeferredRegister ITEMS = new ItemDeferredRegister(MekanismCleanVision.MOD_ID);
-    public static final ItemRegistryObject<ItemModule> CLEAN_VISION_ENHANCEMENT_UNIT =
-            ITEMS.registerModule(ModModules.CLEAN_VISION_ENHANCEMENT_UNIT);
+    public static final ItemRegistryObject<ItemModule> CLEAN_VISION_ENHANCEMENT_UNIT = ITEMS.registerModule(ModModules.CLEAN_VISION_ENHANCEMENT_UNIT);
 
     private ModItems() {
     }
